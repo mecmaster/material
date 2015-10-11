@@ -3413,7 +3413,7 @@
 					}
 
 					#navButton .toggle:before {
-						background: rgba(192, 192, 192, 0.75);
+						background: rgba(63, 81, 181, 0.75);
 						border-radius: 6px;
 						color: #fff;
 						content: '\f0c9';
