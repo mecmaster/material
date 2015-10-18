@@ -233,6 +233,7 @@
 			width: 100% !important;
 		}
 
+
 	}
 
 /* Grid */
@@ -3265,6 +3266,7 @@
 				font-size: 13pt;
 			}
 
+
 		/* Banner */
 
 			#banner {
@@ -3565,6 +3567,9 @@
 			h4 {
 				font-size: 1em;
 			}
+		a.plogo {
+			max-width: 50%;
+		}
 
 		/* Section/Article */
 
@@ -3693,6 +3698,12 @@
 			header.major {
 				padding: 0;
 			}
+		a.plogo {
+			max-width: 45%;
+		}
+		#plogo {
+			max-width: 45%;
+		}
 
 		/* List */
 
