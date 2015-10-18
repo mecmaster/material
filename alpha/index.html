@@ -19,9 +19,9 @@
 	<meta property="og:title" content="Adtena - Wi-Fi Advertising platform. Best way to buy location-based Advertising" />
 	<meta property="og:description" content="Adtena is online platform for managing advertising campaigns in Wi-Fi networks using precise geolocation and customer data for delivering the most relevant mobile ads." />
 	<meta property="og:image" content="http://adtena.com/images/facebook.png" />
-
+	<meta property="og:image" content="http://adtena.com/images/pic01.jpg" />
 	</head>
-	<body class="landing">
+	<body class="landing" onload="langFunction()">
 
 		<div id="page-wrapper">
 
@@ -345,6 +345,12 @@
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
 
+</script>
+
+<script type="text/javascript">
+function langFunction() { 
+var language = navigator.language; if (language == "en-US") {document.location.href = 'http://adtena.com/ru.html';};
+}
 </script>
 
 
