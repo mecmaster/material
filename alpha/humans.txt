@@ -1,0 +1,63 @@
+/* TEAM */
+	CEO, founder: Oleksandr Dzyuba
+	Contact: a.dzyuba@adtena.com
+	Twitter: @mecmaster
+	Facebook: fb.com/oleksandr.dzyuba
+	From: Kyiv, Ukraine
+
+	CTO, founder: Alex Troush
+	Twitter: @Troush69
+	Facebook: facebook.com/troush69
+	From: Kyiv, Ukraine
+
+	CRO: Vitaliy Yakushin
+	Facebook: facebook.com/vitaly.yakushin
+	From: Kyiv, Ukraine
+
+	Software Architect: Alexander Kozlyakov
+	Facebook: facebook.com/theHellDog
+	From: Kyiv, Ukraine
+
+	Back-end Developer: Konstantin Plyusnin
+	Facebook: facebook.com/kostik.plyusnin
+	From: Kyiv, Ukraine
+
+	Network Engineer: Maxim Bogoslov
+	Facebook: facebook.com/profile.php?id=100008846686353
+	From: Kyiv, Ukraine
+
+	Full-stack Developer: Oleg Makarov
+	Facebook: 	facebook.com/fstancox
+	From: Kharkiv, Ukraine
+
+
+/* THANKS */
+
+	Adviser: Oksana Borisenko
+	Facebook: facebook.com/oksana.borysenko.7
+	From: Kyiv, Ukraine
+
+	Angel Investor company: UAngel
+	Web: uangel.com.ua
+	Facebook: facebook.com/uangelBAN
+	From: Kyiv, Ukraine
+
+	Angel Investor company: Detonate ventures
+	Web: d2n8.com
+	Facebook: facebook.com/Detonate.Ventures
+	From: Kyiv, Ukraine
+	
+	Angel Investor company: Wannabiz
+	Web: wannabiz.com.ua
+	Facebook: facebook.com/wannabiz.ua
+	From: Odessa, Ukraine
+	
+	Angel Investor company: Zorea ventures
+	Web: zorea.com
+	From: Kyiv, Ukraine
+			
+
+/* SITE */
+	Last update:2015/10/20
+	Language: English / Russian / Ukrainian
+	Doctype:HTML5
