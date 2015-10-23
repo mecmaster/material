@@ -63,7 +63,7 @@
 									<li><a href="ru.html" hreflang="ru">Russian</a></li>
 								</ul>
 							</li>
-							<li><a href="http://cloud.adtena.com/ru/auth/register/sign_up" class="button" target="blank">Sign Up</a></li>
+							<li><a href="http://cloud.adtena.com/ru/auth/register/sign_up" class="button" target="blank" id="signup">Sign Up</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -159,7 +159,7 @@
 					<h4>Advertising Points: <strong><span id="total_points">0</span></strong>, Views last month: <strong><span id="view_last_month">0</span></strong></h4>
 					<h3>More instruments:</h3>
 					<ul class="actions">
-						<li><a href="http://cloud.adtena.com/auth/register/sign_up" class="button special" target="blank">Sign Up</a></li>
+						<li><a href="http://cloud.adtena.com/auth/register/sign_up" class="button special" target="blank" id="signupad">Sign Up</a></li>
 					</ul>
 					<p>Currently Adtena network allows you to place advertisements in the following cities:</p>
 					<div class="row">
@@ -266,7 +266,29 @@
   ga('create', 'UA-56157686-1', 'auto');
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
+var downloadLink = document.getElementById('signup');
+addListener(downloadLink, 'click', function() {
+  ga('send', 'event', 'button', 'click', 'signup');
+});
+var downloadLink = document.getElementById('signupad');
+addListener(downloadLink, 'click', function() {
+  ga('send', 'event', 'button', 'click', 'signupmain');
+  console.log("clicked");
+});
 
+/**
+ * Utility to wrap the different behaviors between W3C-compliant browsers
+ * and IE when adding event handlers.
+ *
+ * @param {Object} element Object on which to attach the event listener.
+ * @param {string} type A string representing the event type to listen for
+ *     (e.g. load, click, etc.).
+ * @param {function()} callback The function that receives the notification.
+ */
+function addListener(element, type, callback) {
+ if (element.addEventListener) element.addEventListener(type, callback);
+ else if (element.attachEvent) element.attachEvent('on' + type, callback);
+}
 </script>
 
 
